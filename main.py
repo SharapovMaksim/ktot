@@ -4,7 +4,7 @@ from telebot import types
 from keep_alive import keep_alive
 
 TELEGRAM_TOKEN = '7979196477:AAEcZfAxvjFeoAg02zSGbvIv9FcCMKICNyM'
-GEMINI_API_KEY = 'AIzaSyBsoDTqFjqA79KvugDoKW-71J-hDjmxpXE'
+GEMINI_API_KEY = ''
 
 bot = telebot.TeleBot(TELEGRAM_TOKEN)
 genai.configure(api_key=GEMINI_API_KEY)
